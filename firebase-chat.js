@@ -77,7 +77,9 @@
   }
 
   // TODO: in this function you should set the userNameDisplay.innerHTML to the passed in userEmail as well as updating the currentUserEmail variable to that same value
-  function updateCurrentUser(userEmail) {}
+  function updateCurrentUser(userEmail) {
+    currentUserEmail = userEmail;
+  }
 
   // login
   login.addEventListener('click', (e) => {
@@ -93,7 +95,6 @@
       signup.style.display = 'none';
       write.style.display = 'inline';
       updateCurrentUser(resp.user.email);
-      currentUserEmail = email.value;
     });
     promise.catch((e) => console.log(e.message));
   });
