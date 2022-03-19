@@ -2,12 +2,13 @@
   // TODO: replace this with your own firebase config object after creating app in your firebase console
   // Your web app's Firebase configuration
   var firebaseConfig = {
-    apiKey: 'AIzaSyBkKiHuQKzxaojiI6YWp2DFvPFDMAU2wJ0',
-    authDomain: 'fir-chat-6e6f7.firebaseapp.com',
-    projectId: 'fir-chat-6e6f7',
-    storageBucket: 'fir-chat-6e6f7.appspot.com',
-    messagingSenderId: '118595217119',
-    appId: '1:118595217119:web:cd0f04e2ed218df2aeab6a',
+    apiKey: 'AIzaSyB6gYaTdrBObinrkGhbq9piWsrBKHwacrs',
+    authDomain: 'chat-app-5aaee.firebaseapp.com',
+    databaseURL: 'https://chat-app-5aaee-default-rtdb.firebaseio.com',
+    projectId: 'chat-app-5aaee',
+    storageBucket: 'chat-app-5aaee.appspot.com',
+    messagingSenderId: '772572326099',
+    appId: '1:772572326099:web:5cc20ed6c09abaf1df4c26',
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
